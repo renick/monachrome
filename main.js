@@ -34,8 +34,6 @@ require(['vs/editor/editor.main'], function () {
     // const container = document.createElement('div');
     // parent.insertBefore(container, textarea.nextSibling);
 
-    monaco.editor.setTheme("vs");
-
     const editor = monaco.editor.create(parent, {
       model: model,
       lineNumbers: window.__monachromeOptions.lineNumbers,
